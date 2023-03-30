@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PINHEAD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="navbar-overlay"></div>
-        <button
-            type="button"
-            class="navbar-burger">
-            <span class="material-icons">menu</span>
-        </button>
-        <h1 class="navbar-menu">Awards</h1>
-        <nav class="navbar-menu">
-            <button type="button">Skills</button>
-            <button type="button">Awards</button>
-            <button type="button">Projects</button>
-        </nav>
+      <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+      <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+        <span class="material-icons">menu</span>
+      </button>
+      <h1 class="navbar-title">PINHEAD</h1>
+      <nav class="navbar-menu">
+        <button type="button">Inicio</button>
+        <button type="button">Catálogo</button>
+        <button type="button">Pedidos</button>
+      </nav>
     </nav>
-</body>
+    <script type="text/javascript" src="./main.js"></script>
+    <main>
+    <div class="container"></div>
+    </main>
+    </body>
 </html>
